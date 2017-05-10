@@ -34,7 +34,7 @@ jspm_packages
 #Blockchain
 chain/geth
 chain/static-nodes
-truffle/build
+build
 
 demo
 
