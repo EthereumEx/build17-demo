@@ -1,0 +1,11 @@
+version: '3'
+services:
+  geth:
+    image: ethereum/client-go:v1.6.1
+    volumes:
+      - ./chain:/root/.ethereum/
+    ports:
+      - "8545:8545"
+      - "30303:30303"
+      - "30303:30303/udp"
+    command: ["--networkid", "201707", "--nodiscover", "--rpc", "--rpcaddr", "0.0.0.0", "--rpcapi", "net,eth,web3,personal", "--unlock", "0", "--password" ,"/root/.ethereum/pass.txt"]
