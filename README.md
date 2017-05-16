@@ -1,4 +1,4 @@
-# Microsoft Build 17 Blockchain Demo
+# Microsoft Build 17: Webjet Blockchain Demo
 
 This is the demo for Webjet Code Stroy talk at Microosft Build 2017 conference. You can find the session recording [here](https://channel9.msdn.com/Events/Build/2017/T6979).
 ## Usage
