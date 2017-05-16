@@ -1,6 +1,6 @@
 # Microsoft Build 17 Blockchain Demo
 
-This is the demo for Webjet Code Stroy talk at Build 2017. You can find the session recording [here](https://channel9.msdn.com/Events/Build/2017/T6979).
+This is the demo for Webjet Code Stroy talk at Microosft Build 2017 conference. You can find the session recording [here](https://channel9.msdn.com/Events/Build/2017/T6979).
 ## Usage
 
 ### Clone this repo
@@ -10,7 +10,7 @@ git clone https://github.com/EthereumEx/build17-demo
 
 ### Dependencies
 * [Docker](https://docs.docker.com/engine/installation/)
-* Make sure you both `docker` and `docker-compose` are installed.
+* Make sure you have both `docker` and `docker-compose` installed.
 
 
 ### Building the demo
@@ -31,7 +31,7 @@ docker build --network host -t demo .
 ```
 
 ### Running the Demo
-For this part you'll need 3 terminal windows for `Buyer`, `Seller`, `Observer` (observer is optional). Run each of the following commands in a seperate terminal.
+For this part, you'll need 3 terminal windows for `Buyer`, `Seller`, and `Observer` (observer is optional). Run each of the following commands in a seperate terminal.
 
 #### Buyer terminal
 
@@ -58,6 +58,7 @@ docker run -it \
 ```
 
 #### Observer termianl
+
 ```bash
 docker run -it \
   --net=host \
